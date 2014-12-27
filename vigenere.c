@@ -8,7 +8,7 @@ string vigenere(string plainText, string key);
 int main(int argc, string argv[]) {
     // Get the key and validate the command line arg
     while (argc != 2) {
-        printf("Usage: ./caesar key\n");
+        printf("Usage: ./vigenere key\n");
         return 1;
     }
     string key = argv[1];
